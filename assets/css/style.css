@@ -201,3 +201,91 @@ footer {
     color: green;
     text-decoration: underline green solid;
   }
+
+  /*---------------------------------------------------- History Page ----------------------------------------*/
+
+/* Timeline (Tutorial used for main format, credit: https://code-boxx.com/simple-pure-css-timeline */
+
+/* Timeline Container */
+
+.vtl {
+    position: relative;
+    padding: 10px 10px 10px 50px;
+    max-width: 600px;
+  }
+  
+  
+  /* Actual Line */
+  
+  .vtl::before {
+    content: '';
+    width: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+  }
+  
+  /* Historic Event Text Box */
+  
+  div.event {
+    padding: 20px 30px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  /* Year Style */
+  
+  strong.edate {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  p.etxt {
+    margin: 10px 0 0 0;
+    color: #222;
+  }
+  
+  /* Text triangle link with timeline */
+  
+  div.event::before {
+    content: '';
+    border: 10px solid transparent;
+    border-right-color: #ffffff;
+    border-left: 0;
+    position: absolute;
+    top: 20%;
+    left: -10px;
+  }
+  
+  /* Circles on timeline */
+  
+  div.event::after {
+    content: '';
+    background: #fff;
+    border: 4px solid green;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: -40px;
+  }
+  
+  /* Timeline background */
+  .timeline {
+    min-height: 750px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 30%;
+  }
+  
+  /* Images */
+  
+  .img-his-leg {
+    margin-left: 10px;
+  }
+  
