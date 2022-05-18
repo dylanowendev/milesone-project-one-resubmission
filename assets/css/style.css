@@ -58,3 +58,103 @@ header {
     font-size: 130%;
     font-family: 'Roboto', sans-serif;
 }
+
+/*---------------------------------------------------- Main Content and Video Formatting ---------------*/
+
+/* Background Area */
+
+#nested {
+    background-color: black;
+    min-width: 100%;
+    margin-top: 0px;
+  }
+  
+  /* Summary Text Box */
+  
+  .summary {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding:10px 10px 5px 10px;
+    margin: 10px 30px 30px 30px;
+    min-width: 100%;
+    min-height: 275px;
+    font-size: smaller;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Driver Quotes Text Box */
+  
+  .driver-quote {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding:10px 10px 5px 10px;
+    margin: 10px 30px 10px 30px;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .name {
+    font-size: small;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .stats {
+    font-size: smaller;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .quote {
+    font-size: smaller;
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .driver-quote img {
+    float: left;
+    margin-right: 25px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  }
+  
+  /* Video Box */
+  
+  .video-embed {
+    padding:10px 10px 5px 10px;
+    margin: 10px 30px 30px 30px;
+    width: 100vh;
+  }
+  
+  .embed-container { 
+    margin-left: 60px;
+    margin-top: 10px;
+    padding-bottom: 20%;
+  } 
+  
+  /* Column Formatting */
+  
+  .column-left {
+    float: left; 
+    width: 33%; 
+    padding: 10px;
+  }
+  .column-right { 
+    float: right; 
+    width: 33%;
+    padding: 10px;
+  }
+  
+  .column-center{ 
+    display: inline-block; 
+    width: 33%;
+    padding: 10px;
+  }
+  
