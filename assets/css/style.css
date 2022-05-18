@@ -21,3 +21,40 @@ header {
     color: green;
     text-decoration: underline green solid;
 }
+
+/*---------------------------------------------------- Hero Image ----------------------------------------*/
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sennahero.jpg"); 
+    min-height: 350px;
+    background-position: right;
+    background-color: #000000; 
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 40vh;
+    width: 100%;
+}
+
+/*---------------------------------------------------- Hero Caption --------------------------------------*/
+
+.hero-caption {
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    min-width: 100%;
+}
+
+.hero-caption > h1 {
+    font-size: 500%;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.hero-caption > p {
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+}
