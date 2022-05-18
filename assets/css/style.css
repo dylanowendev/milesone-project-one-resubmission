@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Roboto:wght@200&display=swap');
+
+/*---------------------------------------------------- Header / Nav Bar -----------------------------------*/
+
+header {
+    background-color: rgb(130, 0, 0);
+    min-width: 100%;
+}
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 25%; 
+    text-align: center;
+    text-decoration: none;
+}
+  
+  .navbar a:hover {
+    color: green;
+    text-decoration: underline green solid;
+}
