@@ -3,70 +3,70 @@
 /*---------------------------------------------------- Page Overflow --------------------------------------*/
 
 body, html {
-    width: 100%;
-    max-height: 100vh;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+  width: 100%;
+  max-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 /*---------------------------------------------------- Header / Nav Bar -----------------------------------*/
 
 header {
-    background-color: rgb(130, 0, 0);
-    min-width: 100%;
+  background-color: rgb(130, 0, 0);
+  min-width: 100%;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  width: 25%; 
+  text-align: center;
+  text-decoration: none;
 }
   
-  .navbar a {
-    float: left;
-    padding: 12px;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    width: 25%; 
-    text-align: center;
-    text-decoration: none;
-}
-  
-  .navbar a:hover {
-    color: green;
-    text-decoration: underline green solid;
+.navbar a:hover {
+  color: green;
+  text-decoration: underline green solid;
 }
 
 /*---------------------------------------------------- Hero Image ----------------------------------------*/
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sennahero.jpg"); 
-    min-height: 350px;
-    background-position: right;
-    background-color: #000000; 
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 40vh;
-    width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/sennahero.jpg"); 
+  min-height: 350px;
+  background-position: right;
+  background-color: #000000; 
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 40vh;
+  width: 100%;
 }
 
 /*---------------------------------------------------- Hero Caption --------------------------------------*/
 
 .hero-caption {
-    text-align: center;
-    font-weight: 400;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    min-width: 100%;
+  text-align: center;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  min-width: 100%;
 }
 
 .hero-caption > h1 {
-    font-size: 500%;
-    font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 500%;
+  font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .hero-caption > p {
-    font-size: 130%;
-    font-family: 'Roboto', sans-serif;
+  font-size: 130%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*---------------------------------------------------- Main Content and Video Formatting ---------------*/
@@ -277,6 +277,7 @@ div.event::after {
 }
 
 /* Timeline background */
+
 .timeline {
   min-height: 750px;
   background-color: rgb(0, 0, 0);
@@ -308,6 +309,7 @@ div.legacy-text {
 }
 
 /* Background */
+
 #legacy-bg {
   background: black;
 }
@@ -320,6 +322,7 @@ div.legacy-text {
 
 
 /* Font Stylings */
+
 .leg-1 {
   font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 50px;
